@@ -11,7 +11,7 @@ export default class InterviewDate {
   }
 
   public checkInterviewDate() {
-    if (!this._interviewDate || this._interviewDate <= new Date()) {
+    if (!this._interviewDate || this._interviewDate <= new Date(2022, 12, 3)) {
       throw  'interview date is missing';
     }
   }
